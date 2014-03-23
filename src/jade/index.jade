@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title Learn Numbers
+    link(rel='stylesheet', href='css/style.css')
+    script(src='js/bundle.js')
+
+  body(ng-app='app')
+    div(ng-controller='MainCtrl')
+      div(class="audioPlayer")
+        div(ng-click="playCurrent()" class="replay") ?
+        translator
+
+      div(class='numbers')
+        span(ng-repeat='num in nums' ng-click='checkAnswer(num)' 
+             ng-class='{incorrect: incorrectNums.indexOf(num) != -1, correct: correctNums.indexOf(num) != -1}') {{num}}
+      
+            
