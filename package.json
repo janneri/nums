@@ -15,6 +15,7 @@
   ],
   "author": "",
   "dependencies": {
+    "bower": "~1.2.8",
     "coffee-script": "~1.7.1"
   },
   "devDependencies": {
@@ -28,7 +29,6 @@
     "coffeeify": "~0.5.2",
     "tiny-lr": "0.0.5",
     "gulp-livereload": "~0.2.0",
-    "bower": "~1.2.8",
     "gulp": "~3.5.2",
     "browserify-shim": "~3.3.1",
     "express": "^3.5.0"
