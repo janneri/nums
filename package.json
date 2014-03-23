@@ -16,9 +16,7 @@
   "author": "",
   "dependencies": {
     "bower": "~1.2.8",
-    "coffee-script": "~1.7.1"
-  },
-  "devDependencies": {
+    "coffee-script": "~1.7.1",
     "gulp-rename": "~0.2.1",
     "gulp-uglify": "~0.1.0",
     "gulp-util": "~2.2.9",
